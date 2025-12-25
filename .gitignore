@@ -1,31 +1,13 @@
-# Built things
-_Debug/
-Compiled/
+# Rust
+/target
+**/*.rs.bk
+**/*.rlib
+Cargo.lock
 
-# AudioCache can be rebuilt from sources
-AudioCache/
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
 
-# Lockfile
-_OpenInEditor.lock
-
-# User settings
-Game.agf.user
-*.crm.user
-
-# Backups
-Game.agf.bak
-backup_acsprset.spr
-
-# Memory dumps
-*.dmp
-
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
-
-# Log files
-warnings.log
+# macOS
+.DS_Store

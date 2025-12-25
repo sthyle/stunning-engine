@@ -1,0 +1,10 @@
+[package]
+name = "stunning-engine"
+version = "0.1.0"
+edition = "2021"
+authors = ["sthyle"]
+description = "High performance game engine"
+license = "MIT"
+repository = "https://github.com/sthyle/stunning-engine"
+
+[dependencies]
